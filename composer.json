@@ -1,0 +1,21 @@
+{
+    "name": "vynyl/larameta",
+    "description": "A helper for managing metadata using Laravel's Eloquent models .",
+    "keywords": ["php", "laravel", "metadata"],
+    "authors": [
+        {
+            "name": "Nathan Norton",
+            "email": "nnorton@vynyl.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.2",
+        "phpunit/phpunit": "^5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "Vynyl\\LaraMeta\\": "src",
+            "Vynyl\\LaraMetaTest\\": "tests"
+        }
+    }
+}
